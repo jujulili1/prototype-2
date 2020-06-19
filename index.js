@@ -1,4 +1,4 @@
-let input = prompt("tuliskan semuanya");
+let input = prompt("Masukkan yang akan diubah huruf kapitalnya");
 String.prototype.capital = function(allWords) {
     return (allWords) ?
         this.split(' ').map(word => word.capital()).join(' ') :
